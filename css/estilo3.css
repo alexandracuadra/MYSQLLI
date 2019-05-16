@@ -1,0 +1,87 @@
+  .form-group{
+  margin: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.modal-content{
+   margin: auto;
+    width: 100%;
+    background-image: url("../img/fondo5.jpg");
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+body{
+   margin: auto;
+    width: 100%;
+    background-image: url("../img/fondo6.jpg");
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+  button[type="button"]
+  {
+    background: linear-gradient(#ffDA63, #FFB940);
+    border: 0;
+    color: brown;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+  }
+
+button[type="button"]:hover
+  {
+    background: black;
+    color: cyan;
+    opacity: 1;
+  }
+
+
+  button{
+    text-transform: scale(0.9);
+    background: rgba(0,0,0,0);
+    border-radius: 10px;
+  }
+
+  label{
+  color: white;
+}
+h4{
+  color: white;
+}
+th{
+  color: white;
+}
+table{
+  color: white;
+}
+
+   @media (max-width: 768px) {
+    body{
+      background-image: url("../img/fondo6.jpg");
+    }
+    .modal-content{
+    margin: auto;
+    width: 100%;
+    background-image: url("../img/fondo5.jpg");
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+label{
+  color: white;
+}
+h4{
+  color: white;
+}
+th{
+  color: white;
+}
+table{
+  color: white;
+}
+    }
